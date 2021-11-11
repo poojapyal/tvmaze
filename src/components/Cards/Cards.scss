@@ -1,0 +1,17 @@
+.card{
+    &.cardWrapper{
+        border: none;
+        width: 15rem;
+        .card-img-top{
+            border-radius: 0.5rem;
+        }
+        .card-title{
+            font-weight: normal;
+        }
+        .card-text{
+            color: grey;
+            font-size: 12px;
+            text-align: justify;
+        }
+    }
+}

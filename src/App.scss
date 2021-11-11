@@ -1,0 +1,21 @@
+.genresWrapper {
+  margin-top: 1rem;
+  .genresStyle {
+    margin-right: 1rem;
+  }
+}
+
+.totalCountStyle {
+  color: grey;
+  font-size: 14px;
+}
+
+.btn {
+  &.showMoreStyle {
+    border: 1px solid black;
+    border-radius: 0;
+    text-decoration: underline;
+    background: none;
+    color: grey;
+  }
+}

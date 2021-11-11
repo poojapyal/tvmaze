@@ -1,12 +1,13 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import "./Cards.scss";
 
 import * as services from "../../services/services";
 
 const Cards = (props) => {
   const { id, name, summary, image } = props.items.show;
   return (
-    <Card className="m-4" key={id} style={{ width: "15rem" }}>
+    <Card className="m-4 cardWrapper" key={id}>
       {image ? <Card.Img variant="top" src={image.medium} /> : ""}
 
       <Card.Body>
